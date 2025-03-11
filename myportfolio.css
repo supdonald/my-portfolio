@@ -39,7 +39,7 @@ position: sticky;
         }
     }
 #blink{
-    color: rgb(129, 208, 235);
+    color: rgb(211, 234, 242);
     animation: blinker 5s linear infinite;
     /* Larger, responsive font size */
     margin-bottom: 20px;
@@ -61,5 +61,6 @@ footer{
     margin-top: 50px;
     text-align: center;
     margin-top: auto;
+    color: azure;
 
 }
