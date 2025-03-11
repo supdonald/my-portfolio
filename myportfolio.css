@@ -1,15 +1,37 @@
+
+#me{
+    float: right;
+    color: azure;
+    position:absolute;
+    width: 30%;
+    right: 15%;
+    top: 20%;
+}
+
+nav ul li{
+display: inline-block;
+margin-right: 20px;
+
+}
+nav ul{
+text-decoration: none;
+text-align: center;
+position: sticky;
+}
+
+
+
 *{
     font-family: 'Courier New', Courier, monospace;
     
 }
 .dpic {
     float: left;
-    width: 70%;
+    
     animation: blinker 5s linear infinite;
     /* Larger, responsive font size */
     margin-bottom: 20px;
 }
-   
    @keyframes blinker {
     50%
     {
@@ -29,3 +51,15 @@
             opacity: 0.5;
         }
     }
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: black;
+    margin-top: 50px;
+    text-align: center;
+    margin-top: auto;
+
+}
