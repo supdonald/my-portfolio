@@ -1,0 +1,35 @@
+
+nav > ul{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    position: sticky;
+    }
+    nav li{
+        list-style: none;
+        font-size: xx-large;
+        
+    }
+    nav li a{
+        text-decoration: none;
+        margin-left: 25px;
+        color: azure;
+        text-align: center;
+    }
+    *{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium; 
+    }   
+    nav li:hover{
+        background-color: grey;
+    }
+    nav li .dropdown{
+        display: none;
+        position: absolute;
+        background-color: grey;
+        padding-left: 10px;
+    }
+    nav li:hover .dropdown{
+        display: block;
+    }
+    

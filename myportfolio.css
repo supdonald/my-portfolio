@@ -8,21 +8,9 @@
     top: 20%;
 }
 
-nav ul li{
-display: inline-block;
-margin-right: 20px;
-
-}
-nav ul{
-text-decoration: none;
-text-align: center;
-position: sticky;
-}
-
-
-
 *{
     font-family: 'Courier New', Courier, monospace;
+    flex-wrap: nowrap;
     
 }
 .dpic {

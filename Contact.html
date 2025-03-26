@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        fieldset{
+            font-family: 'Courier New', Courier, monospace;
+            color: azure
+            
+        }
+        label{
+            display: block;
+            font-size: medium;
+            text-align:inherit;
+            margin: 25px;
+        }
+        #message{
+            resize: horizontal;
+        }
+        footer{
+    background-color: black;
+    margin-top: 200px;
+    text-align: center;
+    
+    color: azure;
+
+}
+    </style>
+        <link rel="stylesheet" href="../my-portfolio/nav.css">
+
+</head>
+<body style="background-color: black;">
+    <header>
+        <nav class="nav-position">
+           /* <ul>
+                <li><a target="_blank" href="Donald portfolio.html">Home</a></li>
+                <li><a target="_blank" href="photo.html">Photo</a></li>
+                <li><a target="_blank" href="Achievement.html">Achievement</a></li>
+                <li><a target="_blank" href="project.html">Project</a></li>
+                <li><a target="_blank" href="contact.html">Contact</a></li>
+            </ul> */
+        </nav>
+</header>
+    <main>
+    <fieldset style="margin-top: 50px;">
+        <legend>To Send Message</legend>
+        <label for="name"> Your Full Name:
+            <input type="text" placeholder="Your Full Name">
+        </label>
+        <label for="phone"> Your Phone Number:
+            <input type="number" placeholder="Your Phone Number">
+        </label>
+        <label for="Email"> Your Email:
+            <input type="email" placeholder="Email">
+        </label>
+    <legend style="margin-left: 25px;"> Which country are you from?
+        <label for="country"> Bangladesh
+            <input type="radio" name="country" id="Bangladesh">
+        </label>
+        <label for="country"> India
+            <input type="radio" name="country" id="India">
+        </label>
+        <label for="country"> Others
+            <input type="radio" name="country" id="Other country" >
+        </label>
+    </legend>
+        <label for="Message"> Message:
+            <textarea name="" id="" cols="" rows=""></textarea>
+        </label>
+        <center><input type="submit" value="Submit"></center><br>
+        <center><input type="reset" value="Reset"></center>
+
+    </fieldset>
+    </main>
+    <footer>
+        <p><small>&copy; 2029. All right reserved</small></p>
+
+    </footer>
+        
+</body>
+</html>
